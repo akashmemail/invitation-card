@@ -1,0 +1,46 @@
+body {
+  margin: o;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+.event-invitation {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px;
+}
+.event-invitation h1 {
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  color: black;
+}
+.event-invitation .date-time,
+.event-invitation .address,
+.event-invitation .discriction {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+.click {
+  padding: 10px 20px;
+  background-color: #99bc85;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.click:hover {
+  background-color: #ff9149;
+}
